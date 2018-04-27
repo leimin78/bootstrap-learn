@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div>
+            bootstrap 的代码有三种风格 你现在看到的是 code风格
+            <code>su - root</code>
+        </div>
+        <div>
+            你现在看到的是第二种风格 pre
+            <pre>
+                if __name__=='main':
+                    print('hello world')
+            </pre>
+        </div>
+        <div>
+            你现在看到的是第三种风格
+            <kbd>
+                请输入你的代码
+            </kbd>
+        </div>
+        <!-- 长代码显示 -->
+        <pre class="pre-scrollable">
+        #MuguaConversions
+        ws5['U' + new_row] = self.db.fetchservice(MuguaConversions)[0][0]
+        ws5['U' + new_row].fill = self.MuguaFill
+        ws5['U' + new_row].font = self.gFont
+        ws5['U' + new_row].alignment = self.gAlignment
+        ws5['U' + new_row].border = self.thin_border
+
+        #Top1mobi
+        #Top1mobiURL
+        ws5['V' + new_row] = self.db.fetcheuip(Top1mobiURL)[0][0]
+        ws5['V' + new_row].font = self.gFont
+        ws5['V' + new_row].alignment = self.gAlignment
+        ws5['V' + new_row].border = self.thin_border
+
+        #Top1mobiUV
+        ws5['W' + new_row] = self.db.fetcheuip(Top1mobiUV)[0][0]
+        ws5['W' + new_row].font = self.gFont
+        ws5['W' + new_row].alignment = self.gAlignment
+        ws5['W' + new_row].border = self.thin_border
+
+        #Top1mobiClick
+        ws5['X' + new_row] = self.db.fetcheuip(Top1mobiClick)[0][0]
+        ws5['X' + new_row].font = self.gFont
+        ws5['X' + new_row].alignment = self.gAlignment
+        ws5['X' + new_row].border = self.thin_border
+
+        #Top1mobiConversions
+        ws5['Y' + new_row] = self.db.fetchservice(Top1mobiConversions)[0][0]
+        ws5['Y' + new_row].font = self.gFont
+        ws5['Y' + new_row].alignment = self.gAlignment
+        ws5['Y' + new_row].border = self.thin_border
+        </pre>
+    </body>
+</html>
