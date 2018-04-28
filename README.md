@@ -83,3 +83,24 @@ bootstrap 表格，bootstrap 提供了不同类型的表格如下
 
 day2-10.html
 bootstrap 为表格设置了不同颜色的类 class="active",class="success",class="info",class="warning",class="danger"
+
+#day3 2018年4月28日
+day3-1.html
+基础表单
+水平表单可以使用 class="form-horizontal" 进行设置
+class="form-group" 效果类似列表里面的row
+
+day3-2.html
+内联表单，将表单控件显示在一行 class="form-inline"
+
+day3-3.html
+表单下拉选择框，使用mutiple表示多重选择
+
+day3-4.html
+复选框 checkbox 单选择按钮 radio
+
+day3-5.html
+表单控件大小
+class="input-lg" 控件变大
+class="input-sm" 控件变小
+disable 表单禁止选择或输入
